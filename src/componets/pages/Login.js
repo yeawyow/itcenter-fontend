@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { TextField,Button,Card,CardContent,CardMedia,Typography} from '@material-ui/core';
 import * as loginActions from './../../actions/login.action'
 import {useDispatch,useSelector} from 'react-redux'
-
+import { Alert } from '@material-ui/lab';
 const useStyles = makeStyles(theme=>({
   root: {
     maxWidth: 345,
@@ -81,7 +81,7 @@ const loginReducer = useSelector(({ loginReducer }) => loginReducer);
             id="passwordjwt"
             autoComplete="current-password"
           />
-
+<Alert severity="error">This is an error alert — check it out!</Alert>
           <Button
             type="submit"
             fullWidth

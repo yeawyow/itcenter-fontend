@@ -3,6 +3,7 @@ export const LOGIN_FAILED="LOGIN_FAILED"
 export const LOGIN_SUCCESS="LOGIN_SUCCESS"
 export const LOGOUT="LOGOUT"
 
+
 export const apiUrl = "http://localhost:8081/api/v2";
 export const imageUrl = "http://localhost:8081";
 
@@ -19,7 +20,8 @@ export const server = {
   PRODUCT_URL: `stock/product`,
   TRANSACTION_URL: `transaction`,
   REPORT_URL: `stock/report`,
-  LOGIN_PASSED: `yes`
+  LOGIN_PASSED: `yes`,
+ 
 };
 
 // Error Code
